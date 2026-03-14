@@ -1,0 +1,166 @@
+/* =========================
+   NAVBAR LAYOUT
+   ========================= */
+
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:14px 40px;
+
+background:#C7D92D;
+
+position:fixed;
+width: flex;
+top:0;
+right: 0;
+left: 0;
+z-index:1000;
+
+}
+
+/* LEFT SIDE */
+
+.nav-left{
+display:flex;
+align-items:center;
+gap:40px;
+}
+
+/* LOGO */
+
+.nav-logo{
+font-weight:bold;
+font-size: 30px;
+color:white;
+}
+
+/* LINK CONTAINER */
+
+.nav-links{
+
+display:flex;
+gap:25px;
+list-style:none;
+margin:0;
+padding:0;
+
+}
+
+/* LINKS */
+
+.nav-links a{
+
+text-decoration:none;
+color:white;
+font-weight:500;
+
+padding:6px 10px;
+border-radius:4px;
+
+transition:all .2s;
+
+}
+
+/* HOVER EFFECT */
+
+.nav-links a:hover{
+
+background:#154995;
+color:white;
+
+}
+
+/* ACTIVE PAGE */
+
+.nav-links a.active{
+
+background:#154995;
+color:white;
+
+}
+
+/* RIGHT SIDE */
+
+.nav-right{
+
+display:flex;
+align-items:center;
+gap:15px;
+
+}
+
+/* LANGUAGE SELECT */
+
+#languageSelect{
+background:#154995;
+color:white;
+border:none;
+padding:6px 10px;
+border-radius:4px;
+border-color: #C7D92D;
+
+}
+
+/* INFO BUTTON */
+
+.info-btn{
+
+background:#154995;
+border:none;
+color:white;
+
+width:32px;
+height:32px;
+
+border-radius:50%;
+
+cursor:pointer;
+
+font-weight:bold;
+
+}
+
+
+/* =========================
+   INFO POPUP
+   ========================= */
+
+.info-popup{
+
+display:none;
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,0.4);
+
+justify-content:center;
+align-items:center;
+z-index:5000;
+}
+
+.info-content{
+background:white;
+padding:25px;
+border-radius:8px;
+max-width:400px;
+text-align:center;
+}
+
+.close-button{
+margin-top:15px;
+cursor:pointer;
+background:#154995;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:5px;
+}

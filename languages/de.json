@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "links": "Wichtige Links",
+    "community": "Community",
+    "map": "Karte",
+    "info-title":"Information",
+    "info-content":"Diese Website wurde von der Hausverwaltung (HV) von K3 erstellt und ist kein offizieller Dienst des Studentenwerks Mainz."
+  },
+
+  "home":{
+    "title": "Wichtige Informationen",
+    "mapK3":{
+      "trash":"Müllsammelplatz",
+      "parking":"Parkplätze"
+    },
+
+    "caretaker": {
+      "title": "Hausmeister",
+      "office": "Büro: Haus 6",
+      "hours1": "Mo, Mi, Fr → 09:00–10:00",
+      "hours2": "Di, Do → 14:00–15:00"
+    },
+
+    "repairs": {
+      "title": "Reparaturen",
+      "text": "Melde Probleme über das Mieterportal."
+    },
+
+    "laundry": {
+      "title": "Waschraum",
+      "text": "Waschraum in Haus 4."
+    },
+
+    "parking": {
+      "title": "Parken",
+      "text": "Parkplätze in der Lucy-Hillebrand-Straße."
+    }
+  }
+
+}
