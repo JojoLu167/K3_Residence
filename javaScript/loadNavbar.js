@@ -1,54 +1,76 @@
-async function loadNavbar(){
-    const response = await fetch("components/navbar.html")
-    const html = await response.text()
+// ================================
+// loadNavbar.js
+// ================================
 
-    document.getElementById("navbar-container").innerHTML = html
+/**
+ * Load the navbar from an external HTML file into the DOM,
+ * set the active link, initialize the language dropdown,
+ * and apply the current language to all elements.
+ */
+async function loadNavbar() {
+    try {
+        // Fetch the navbar HTML from the components folder
+        const response = await fetch("components/navbar.html");
+        const html = await response.text();
 
-    setActiveLink()
-    loadLanguages()
+        // Insert the navbar into the DOM
+        document.getElementById("navbar-container").innerHTML = html;
 
-    // By reload -> used saved language
-    const lang = localStorage.getItem("lang") || "en"
-    setLanguage(lang)
+        // Highlight the active page link in the navbar
+        setActiveLink();
+
+        // Populate the language select dropdown and attach listeners
+        loadLanguages();
+
+        // Apply the currently saved language AFTER the navbar is loaded
+        const savedLang = localStorage.getItem("lang") || currentLang;
+        setLanguage(savedLang);
+
+    } catch (error) {
+        console.error("Failed to load navbar:", error);
+    }
 }
 
+/**
+ * Highlight the current page link in the navbar.
+ * This compares the current URL to each link's href.
+ */
+function setActiveLink() {
+    const currentPage = window.location.pathname.split("/").pop();
 
-/* ACTIVE PAGE */
-function setActiveLink(){
-    const currentPage = window.location.pathname.split("/").pop()
-    document.querySelectorAll(".nav-links a").forEach(link=>{
-        if(link.getAttribute("href") === currentPage){
-            link.classList.add("active")
+    document.querySelectorAll(".nav-links a").forEach(link => {
+        if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
         }
-    })
+    });
 }
 
+/**
+ * Populate the language dropdown with available options
+ * and set up the change listener to switch languages.
+ */
+function loadLanguages() {
+    const select = document.getElementById("languageSelect");
+    const languages = ["de", "en"]; // supported languages
 
-/* INFO POPUP */
+    // Clear any existing options to avoid duplicates
+    select.innerHTML = "";
 
-function openInfo(){
-    document.getElementById("infoPopup").style.display="flex"
-}
+    // Add language options
+    languages.forEach(lang => {
+        const option = document.createElement("option");
+        option.value = lang;
+        option.textContent = lang.toUpperCase(); // display as DE / EN
+        select.appendChild(option);
+    });
 
-function closeInfo(){
-    document.getElementById("infoPopup").style.display="none"
-}
+    // Set the dropdown to the currently saved language
+    select.value = localStorage.getItem("lang") || currentLang;
 
-
-/* LOAD LANGUAGE OPTIONS */
-
-async function loadLanguages(){
-    const select = document.getElementById("languageSelect")
-    const languages = ["de","en"]
-
-    languages.forEach(lang=>{
-        const option = document.createElement("option")
-
-        option.value = lang
-        option.textContent = lang.toUpperCase()
-
-        select.appendChild(option)
-    })
-    select.addEventListener("change", e=>{setLanguage(e.target.value)})
-
+    // Add a listener to switch language when the user selects a different option
+    select.addEventListener("change", e => {
+        setLanguage(e.target.value);
+    });
 }

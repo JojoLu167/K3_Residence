@@ -47,6 +47,26 @@
       "title": "Parking",
       "text": "Resident parking on Lucy-Hillebrand-Straße."
     }
+  },
+
+
+  "HV": {
+    "title": "Dorm Committee (HV)"
+  },
+
+
+  "links": {
+    "title": "Important Links"
+  },
+
+
+  "map": {
+    "title": "Map"
+  },
+
+
+  "community": {
+    "title": "K3 Community"
   }
 
 }
