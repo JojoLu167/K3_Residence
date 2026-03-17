@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/mapK3.css">
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/map.css">
 
@@ -21,7 +20,6 @@
 
 <script src="javaScript/lan.js"></script>
 <script src="javaScript/loadNavbar.js"></script>
-<script src="javaScript/map.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         loadNavbar()
@@ -32,46 +30,46 @@
 
 <div class="map-sidebar">
 
-<h3>Orte</h3>
+<h3 data-i18n="map.places">Places</h3>
 
 <div class="category">
-<h4>Lebensmittel</h4>
+<h4 data-i18n="map.groceries">Groceries</h4>
 <ul>
-<li onclick="focusMarker('rewe')">Rewe</li>
-<li onclick="focusMarker('kaufland')">Kaufland</li>
-<li onclick="focusMarker('aldi')">Aldi</li>
-<li onclick="focusMarker('lidl')">Lidl</li>
+<li onclick="focusMarker('rewe')" data-i18n="map.rewe">Rewe</li>
+<li onclick="focusMarker('kaufland')" data-i18n="map.kaufland">Kaufland</li>
+<li onclick="focusMarker('aldi')" data-i18n="map.aldi">Aldi</li>
+<li onclick="focusMarker('lidl')" data-i18n="map.lidl">Lidl</li>
 </ul>
 </div>
 
 <div class="category">
-<h4>Drogerie</h4>
+<h4 data-i18n="map.drugstore">Drugstore</h4>
 <ul>
-<li onclick="focusMarker('mueller')">Müller</li>
-<li onclick="focusMarker('dm')">DM</li>
+<li onclick="focusMarker('mueller')" data-i18n="map.mueller">Müller</li>
+<li onclick="focusMarker('dm')" data-i18n="map.dm">DM</li>
 </ul>
 </div>
 
 <div class="category">
-<h4>Apotheke</h4>
+<h4 data-i18n="map.pharmacy">Pharmacy</h4>
 <ul>
-<li onclick="focusMarker('apo')">Sonnen-Apotheke</li>
+<li onclick="focusMarker('apo')" data-i18n="map.apo">Sonnen Apotheke</li>
 </ul>
 </div>
 
 <div class="category">
-<h4>Transport</h4>
+<h4 data-i18n="map.transport">Transport</h4>
 <ul>
-<li onclick="focusMarker('arena')">Bretzenheim Arena</li>
-<li onclick="focusMarker('campusbruecke')">Campusbrücke</li>
-<li onclick="focusMarker('kisselberg')">Kisselberg</li>
+<li onclick="focusMarker('arena')" data-i18n="map.arena">Arena</li>
+<li onclick="focusMarker('campusbruecke')" data-i18n="map.campusbruecke">Campusbrücke</li>
+<li onclick="focusMarker('kisselberg')" data-i18n="map.kisselberg">Kisselberg</li>
 </ul>
 </div>
 
 <div class="category">
-<h4>Service</h4>
+<h4 data-i18n="map.service">Service</h4>
 <ul>
-<li onclick="focusMarker('sw')">Studierendenwerk</li>
+<li onclick="focusMarker('sw')" data-i18n="map.sw">Studierendenwerk</li>
 </ul>
 </div>
 
@@ -81,6 +79,6 @@
 
 </div>
 
-
+<script src="javaScript/map.js"></script>
 </body>
 </html>
