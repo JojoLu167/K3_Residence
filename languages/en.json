@@ -119,8 +119,28 @@
   },
 
 
-  "map": {
-    "title": "Map"
+  "map":{
+    "title":"Map",
+
+    "places":"Places",
+    "groceries":"Groceries",
+    "drugstore":"Drugstore",
+    "pharmacy":"Pharmacy",
+    "transport":"Transport",
+    "service":"Service",
+    "rewe":"Rewe",
+    "kaufland":"Kaufland",
+    "aldi":"Aldi",
+    "lidl":"Lidl",
+    "mueller":"Müller",
+    "dm":"DM",
+    "apo":"Sonnen Pharmacy",
+    "arena":"Bretzenheim Arena",
+    "campusbruecke":"Hochschule Mainz / Campusbrücke",
+    "kisselberg":"Kisselberg",
+    "hsmainz": "Hochschule Mainz",
+    "sw":"Studierendenwerk",
+    "tram": "Tram"
   },
 
 
