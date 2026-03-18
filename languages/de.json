@@ -48,14 +48,14 @@
       "title": "Wäsche & Müll",
       "laundry": "Der Waschraum befindet sich in Haus 4 (Bezahlung über die Studierendenwerk-App).",
       "trash": "Die Müll- und Recyclingstellen befinden sich in der Nähe von Haus 4 und Haus 18.",
-      "bike": "Es gibt Fahrradkäfige, wo Sie Ihr Fahrrad sicher abstellen können.",
       "link": "Wohnheimbroschüre (PDF)"
     },
 
     "parking": {
       "title": "Parken",
       "text": "In der Lucy-Hillebrand-Straße stehen Anwohnerparkplätze zur Verfügung.",
-      "text2": "Sollten keine Parkplätze frei sein, kann man das Parkhaus der Hochschule Mainz nutzen."
+      "text2": "Sollten keine Parkplätze frei sein, kann man das Parkhaus der Hochschule Mainz nutzen.",
+      "bike": "Es gibt Fahrradkäfige, wo Sie Ihr Fahrrad sicher abstellen können."
     },
 
     "HV": {
@@ -83,33 +83,64 @@
 
     "what": {
       "title": "Was ist die HV?",
-      "text1": "Die HV ist die Hausvertretung des Wohnheims K3.",
-      "text2": "Wir vertreten die Interessen der Bewohner und fördern das Gemeinschaftsleben."
+      "text1": "Die HV ist die Hausvertretung des Wohnheims, also die Leute, die K3 zu mehr als nur einem Schlafplatz machen wollen.",
+      "text2": "Von Barabenden und Partys bis zur Unterstützung neuer Bewohner:innen: Wir schaffen einen Ort, an dem man seine Nachbarn wirklich kennt. Wir sind eine Gruppe von Bewohner:innen, die ehrenamtlich Events organisieren, das Wohnheimleben verbessern und eure Interessen beim Studierendenwerk vertreten. Aktuell sind wir etwa 12 Aktive und geben unser Bestes, K3 lebendiger und sozialer zu machen "
     },
 
     "tasks": {
-      "title": "Was wir machen",
-      "text1": "Wir organisieren Veranstaltungen, kümmern uns um Kommunikation und helfen Bewohnern.",
-      "text2": "Außerdem betreuen wir Projekte und Verbesserungen im Wohnheim."
-    },
-
-    "contact": {
-      "title": "Kontakt",
-      "text": "Du erreichst uns über WhatsApp, Instagram oder persönlich bei Veranstaltungen."
+      "title": "Was machen wir?",
+      "text1": "Wir setzen uns dafür ein:",
+      "esp1": "das Leben im Wohnheim sozialer und angenehmer zu gestalten",
+      "esp2": "eure Interessen gegenüber dem Studierendenwerk Mainz zu vertreten",
+      "esp3": "Arbeitsgruppen (AGs) zu unterstützen",
+      "esp4": "Events, Partys und Aktionen zu organisieren",
+      "esp5": "die WhatsApp-Gruppe zu betreuen",
+      "esp6": "Gemeinschaftsbereiche zu pflegen und weiterzuentwickeln"
     },
 
     "join": {
-      "title": "Mitmachen",
-      "text": "Jeder kann bei der HV mitmachen und das Wohnheim aktiv mitgestalten."
+      "title": "Wie kannst du mitmachen?",
+      "text": "Ganz einfach:", 
+      "text2": "Komm zur VV (Vollversammlung), stell dich kurz vor und lass dich wählen. Keine Erfahrung nötig – nur Ideen, Motivation und ein bisschen Mut!"
+    },
+
+    "VV": {
+      "title": "Was ist die VV (Vollversammlung)?",
+      "text": "Die VV ist das große Wohnheimtreffen, bei dem alle mitreden können. Sie ist das wichtigste Entscheidungsgremium im K3. Findet meist einmal pro Semester statt und alle Bewohner:innen können teilnehmen. Dort wird:",
+      "esp1": "Die HV wird gewählt",
+      "esp2": "Wichtige Themen besprochen",
+      "esp3": "Entscheidungen fürs Wohnheim getroffen",
+      "esp4": "Bewohner:innen angehört"
     },
 
     "bar": {
       "title": "K3 Bar",
-      "text": "Die K3 Bar ist ein zentraler Treffpunkt und wird von der HV organisiert."
+      "text": "Einer der besten Orte im K3:",
+      "esp1": "regelmäßige Barabende (meist freitags ab 21 Uhr)",
+      "esp2": "Partys, Events und gute Stimmung",
+      "esp3": "Leute kennenlernen – auch außerhalb deines Flurs",
+      "text2": "Du kannst die Bar auch für Geburtstage oder private Feiern reservieren (wenn ein HV-Mitglied zum Aufschließen da ist)."
+    },
+
+    "AG": {
+      "title": "AG's (Arbeitsgruppen)",
+      "text": "Noch nicht bereit für die HV? Kein Problem. AGs sind kleinere Gruppen für Themen wie Sport, Kultur oder Technik.",
+      "esp1": "offen für alle",
+      "esp2": "unterstützt von der HV",
+      "esp3": "entspannter Einstieg, um mitzumachen und Leute kennenzulernen"
+    },
+
+    "contact": {
+      "title": "Wie kann man uns erreichen?",
+      "text": "Du erreichst uns:",
+      "esp1": "bei unseren wöchentlichen Treffen (dienstags um 20:30 Uhr)",
+      "esp2": "per Mail: hvk3@uni-mainz.de",
+      "esp3": "über die K3-WhatsApp-Gruppe",
+      "esp4": "über Instagram"
     }
   },
 
-    "community": {
+  "community": {
     "bar": {
       "title": "Bar AG",
       "text1": "Die Bar AG organisiert Events und betreibt die K3 Bar.",

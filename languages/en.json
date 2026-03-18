@@ -30,7 +30,7 @@
       "hours1": "Mon, Wed, Fri → 09:00–10:00",
       "hours2": "Tue, Thu → 14:00–15:00",
       "phone": "Phone: +49 6131 392 45 57",
-      "link": "Official informations"
+      "link": "Official information"
     },
 
     "repairs": {
@@ -48,21 +48,21 @@
       "title": "Laundry & Waste",
       "laundry": "The laundry room is in House 4 (payment via the Studierendenwerk app).",
       "trash": "Trash and recycling areas are located near House 4 and House 18.",
-      "bike": "There is a locked bike storage area where you can safely park your bicycle.",
       "link": "Housing Brochure (PDF)"
     },
 
     "parking": {
       "title": "Parking",
       "text": "Resident parking is available on Lucy-Hillebrand-Straße.",
-      "text2": "If no spaces are available, you can use parking on the university Mainz garage."
+      "text2": "If no spaces are available, you can use parking on the university Mainz garage.",
+      "bike": "There is a locked bike storage area where you can safely park your bicycle."
     },
 
     "HV": {
       "title": "Volunteering & Community",
       "HV": "HV (Dorm Committe):",
       "esp1": "Organizes events, runs the K3 Bar, and represents residents.",
-      "esp2": "Elections take place each semester during the General Assembly. Every K3 resident can can run for election.",
+      "esp2": "Elections take place each semester during the General Assembly. Every K3 resident can run for election.",
       "esp3": "Feel free to join, bring ideas or raise concerns in the weekly HV Meetings.",
       "text": "You can get involved by joining the Bar Team, helping in working groups, or starting your own project.",
       "bar": "Bar Nights: Fridays at 21:00"
@@ -83,29 +83,60 @@
 
     "what": {
       "title": "What is the HV?",
-      "text1": "The HV (Hausverwaltung) is the resident committee of K3.",
-      "text2": "We represent the interests of the residents and help organize community life."
+      "text1": "The HV is the resident council of the dorm, aka the people who try to make K3 more than just a place to sleep.",
+      "text2": "From bar nights and parties to helping new residents settle in, we try to create a place where people actually know their neighbors. We’re a group of residents who volunteer to organize events, improve dorm life, and represent your interests at the Studierendenwerk. Right now, we’re around 12 active members doing our best to make K3 a bit more fun, social, and alive."
     },
 
     "tasks": {
-      "title": "What we do",
-      "text1": "We organize events, manage communication and support residents.",
-      "text2": "We also take care of projects and improvements within the dorm."
-    },
-
-    "contact": {
-      "title": "Contact",
-      "text": "You can reach us via WhatsApp, Instagram or in person at events."
+      "title": "What do we do?",
+      "text1": "We take care of things like:",
+      "esp1": "making dorm life more social and enjoyable",
+      "esp2": "representing your interests to the Studierendenwerk Mainz",
+      "esp3": "supporting AG's (Working Groups)",
+      "esp4": "organizing events, parties, and activities",
+      "esp5": "managing the dorm's WhatsApp group",
+      "esp6": "looking after common spaces and improve them"
     },
 
     "join": {
-      "title": "Join us",
-      "text": "Everyone is welcome to join the HV and help shape the community."
+      "title": "How can you join us?",
+      "text": "Pretty simple:",
+      "text2": "Show up at the VV (Vollversammlung), introduce yourself, and get elected. No experience needed — just bring ideas, motivation, and maybe a bit of courage"
+    },
+
+    "VV": {
+      "title": "What is VV (Vollversammlung)?",
+      "text": "The VV is the big dorm meeting where everyone gets a say. It’s the highest decision-making space in K3. It usually happens once per semester, and everyone living in K3 can join. That's where:",
+      "esp1": "the HV gets elected",
+      "esp2": "important topics are discussed",
+      "esp3": "decisions about dorm life are made",
+      "esp4": "listened to residents"
     },
 
     "bar": {
       "title": "K3 Bar",
-      "text": "The K3 Bar is a central meeting place organized by the HV with regular events."
+      "text": "The K3 Bar is a central meeting place organized by the HV with regular events.",
+      "esp1": "regular bar evenings (usually Fridays from 9:00 PM)",
+      "esp2": "Parties, events, and good vibes",
+      "esp3": "A place to meet people beyond your hallway",
+      "text2": "You can also reserve the bar for birthdays or private events (if an HV member is available to open it)."
+    },
+
+    "AG": {
+      "title": "AG's (Working Groups)",
+      "text": "Not ready to join the HV? No problem. AG’s are smaller groups where you can get involved in specific things like sports, culture, or tech.",
+      "esp1": "open to everyone",
+      "esp2": "supported by the HV",
+      "esp3": "a chill way to contribute and meet people"
+    },
+
+    "contact": {
+      "title": "How to contact us?",
+      "text": "You can reach us::",
+      "esp1": "during our weekly meetings (tuesdays 8:30 pm)",
+      "esp2": "by Mail: hvk3@uni-mainz.de",
+      "esp3": "in the K3 WhatsApp group",
+      "esp4": "on Instagram"
     }
   },
 
@@ -145,7 +176,7 @@
     }
   },
 
-    "community": {
+  "community": {
     "bar": {
       "title": "Bar AG",
       "text1": "The Bar AG organizes events and runs the K3 bar.",

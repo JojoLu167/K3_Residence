@@ -79,3 +79,13 @@ height:auto;
 }
 
 }
+
+/*links*/
+.link-item-hv{
+    text-decoration:none;
+    color:#154995;
+}
+
+.link-item-hv:hover{
+    color:#C7D92D;
+}
