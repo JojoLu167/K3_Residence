@@ -153,6 +153,7 @@
 
     "nag": {
       "title": "Netzwerk AG (NAG)",
+      "login": "Internet Login/out",
       "website": "NAG Website",
       "info": "Residents who help others with internet setup and minor connection issues."
     },
@@ -163,9 +164,11 @@
       "k3": "Residence K3",
       "contact": "Housing Contact",
       "portal": "Tenant Portal",
+      "pay": "Studierendenwerk Payment App",
       "emergency": "Emergency Service",
       "caretaker": "Caretakers Information",
-      "brochure": "Housing Brochure (PDF)"
+      "brochure": "Housing Brochure (PDF)",
+      "menu": "Menu for all Studiwerk Mainz dining halls"
     },
 
     "shops": {

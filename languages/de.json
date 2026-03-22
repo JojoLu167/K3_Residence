@@ -179,6 +179,7 @@
 
     "nag": {
       "title": "Netzwerk AG (NAG)",
+      "login": "Internet An-/Abmeldung",
       "website": "NAG Webseite",
       "info": "Bewohner, die ehrenamtlich anderen bei der Einrichtung des Internets und kleineren Verbindungsproblemen helfen."
     },
@@ -189,9 +190,11 @@
       "k3": "Wohnheim K3",
       "contact": "Kontakt Team Wohnen",
       "portal": "Mieterportal",
+      "pay": "Studierendenwerk Bezahl-App",
       "emergency": "Notdienst",
       "caretaker": "Hausmeister Informationen",
-      "brochure": "Wohnheimbroschüre (PDF)"
+      "brochure": "Wohnheimbroschüre (PDF)",
+      "menu": "Speiseplan aller Mensen des Studiwerk Mainz"
     },
 
     "shops": {
