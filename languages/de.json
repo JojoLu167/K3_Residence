@@ -198,7 +198,8 @@
     },
 
     "shops": {
-      "title": "Geschäfte in der Nähe",
+      "title": "Geschäfte & Services in der Nähe",
+      "service": "Services",
       "groceries": "Lebensmittel",
       "drugstore": "Drogerie",
       "pharmacy": "Apotheke"
@@ -227,6 +228,8 @@
     "kisselberg":"Kisselberg",
     "hsmainz": "Hochschule Mainz",
     "sw":"Studierendenwerk",
-    "zm": "Zentralmensa"
+    "zm": "Zentralmensa",
+    "hsm": "Mensa Hochschule Mainz",
+    "mail": "Briefkasten der Post"
   }
 }

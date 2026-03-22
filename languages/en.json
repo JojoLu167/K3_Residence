@@ -172,7 +172,8 @@
     },
 
     "shops": {
-      "title": "Nearby Shops",
+      "title": "Nearby Shops and Services",
+      "service": "Services",
       "groceries": "Groceries",
       "drugstore": "Drugstore",
       "pharmacy": "Pharmacy"
@@ -226,6 +227,8 @@
     "kisselberg":"Kisselberg",
     "hsmainz": "Hochschule Mainz",
     "sw":"Studierendenwerk",
-    "zm": "Central Cafeteria"
+    "zm": "Central Cafeteria",
+    "hsm": "Cafeteria Hochschule Mainz",
+    "mail": "Post Office Mailbox"
   }
 }

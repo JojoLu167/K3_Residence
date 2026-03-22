@@ -86,8 +86,13 @@ sw: L.marker([49.992726,8.233475],{icon: icons.service}).addTo(map)
 .bindPopup("Studierendenwerk"),
 
 zm: L.marker([49.991801,8.234076],{icon: icons.service}).addTo(map)
-.bindPopup("Zentralmensa")
+.bindPopup("Zentralmensa"),
 
+hsm: L.marker([49.98835,8.22673],{icon: icons.service}).addTo(map)
+.bindPopup("Mensa Hochschule Mainz"),
+
+mail: L.marker([49.99245,8.23481],{icon: icons.service}).addTo(map)
+.bindPopup("Post Office Mailbox")
 }
 
 // Focus function
