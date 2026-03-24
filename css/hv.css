@@ -91,6 +91,10 @@ flex-direction:column;
 height:auto;
 }
 
+.hv-image-nc img{
+height:auto;
+}
+
 }
 
 /*links*/
